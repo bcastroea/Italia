@@ -4,7 +4,7 @@ body{
   padding: 0;
   background-color: #f7f7f7;
   background-image:
-    linear-gradient(to bottom right, #fdf4f4, #e7eed0),
+    linear-gradient(to bottom right, #fdf4f4, #e9efd5),
     linear-gradient(0deg, rgba(0,0,0,0.02) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
   background-size: 40px 40px, 40px 40px, 40px 40px;
@@ -134,7 +134,7 @@ section p{
 }
 
 .card:hover{
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 .card img{
@@ -253,6 +253,21 @@ section p{
   background-color: #ce2b37;
   color: white;
   border-color: #ce2b37;
+}
+
+/* Barra de rolagem personalizada */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0f2f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00796b;
+  border-radius: 10px;
+  border: 3px solid #e0f2f1;
 }
 
 /* Rodapé */
