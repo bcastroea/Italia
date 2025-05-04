@@ -3,75 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Itália - Informações</title>
+  <title>Itália - Página Principal</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <div class="bandeira-container">
-        <img src="imagens/bandeira.png" alt="Bandeira da Itália" class="bandeira" />
+  <div class="main-container">
+    <nav class="top-nav">
+      <div class="nav-left">
+        <img src="imagens/bandeira.png" alt="Bandeira da Itália" class="nav-logo" />
+        <h2>Itália</h2>
       </div>
-      <h1>Descubra a Itália</h1>
-      <p>Explore as informações e beleza das cidades mais emblemáticas da Itália.</p>
-    </header>
 
-    <div class="card">
-      <h2>Informações sobre a Itália</h2>
-      <div class="info">
-        <p><strong>Capital:</strong> Roma</p>
-        <p><strong>População:</strong> Aproximadamente 60 milhões</p>
-        <p><strong>Idioma:</strong> Italiano</p>
-        <p><strong>Moeda:</strong> Euro (€)</p>
-      </div>
-    </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-btn">Início</a></li>
+       <li><a href="roma.html" class="nav-btn">Roma</a></li>
+       <li><a href="milao.html" class="nav-btn">Milão</a></li>  
+      </ul>
+    </nav>
 
-    <div class="card">
-      <h2>História e Curiosidades</h2>
-      <div class="descricao-geral">
-        <p>A Itália possui uma das histórias mais ricas e influentes do mundo. Foi o berço do Império Romano, um dos maiores impérios da Antiguidade, que influenciou a cultura, a arquitetura, a política e o direito de várias civilizações ocidentais.</p>
-    
-        <p>Durante a Idade Média e o Renascimento, a Itália floresceu em cidades como Florença, Veneza e Roma, tornando-se um centro artístico e intelectual. Grandes nomes como Leonardo da Vinci, Michelangelo e Galileo Galilei nasceram na Itália.</p>
-    
-        <p>Atualmente, a Itália é um país moderno que preserva seu vasto patrimônio cultural e histórico, atraindo milhões de turistas todos os anos. Além disso, é conhecida pela moda, design, gastronomia e paisagens deslumbrantes, desde os Alpes até as praias do Mediterrâneo.</p>
-    
-        <p><strong>Curiosidade:</strong> O país tem 55 patrimônios mundiais reconhecidos pela UNESCO, sendo um dos líderes mundiais nesse quesito.</p>
-      </div>
-    </div>
+    <main class="container">
+      <header class="hero">
+        <h1>Bem-vindo à Itália</h1>
+        <p>Explore as belezas, sabores e histórias de um dos países mais encantadores do mundo.</p>
+      </header>
 
-    <section class="card">
-      <h2>Cidades Principais</h2>
-      <div class="botoes-cidades">
-        <a href="roma.html" class="botao-cidade">Roma</a>
-        <a href="milao.html" class="botao-cidade">Milão</a>
-      </div>
-    </section>
+      <section class="intro">
+        <div class="card">
+          <img src="imagens/italia.jpg" alt="Imagem da Itália" />
+          <h2>Sobre a Itália</h2>
+          <p>A Itália é um país rico em cultura, história e paisagens deslumbrantes. Conhecida por suas cidades icônicas, gastronomia de renome mundial e obras de arte, é um destino imperdível.</p>
+        </div>
+      </section>
 
-    <div class="card">
-      <h2>Comidas Típicas</h2>
-      <div class="comidas">
-        <ul>
-          <li>
-            <img src="imagens/pizzaitalia.jpeg" alt="Pizza Italiana" class="comida-img" />
-            <p><strong>Pizza</strong>: A famosa pizza italiana, com diversas variações regionais, é um ícone da culinária do país.</p>
-          </li>
-          <li>
-            <img src="imagens/pasta.jpg" alt="Pasta" class="comida-img" />
-            <p><strong>Pasta</strong>: A massa é um prato fundamental, variando entre diferentes tipos e molhos.</p>
-          </li>
-          <li>
-            <img src="imagens/gelato.jpg" alt="Gelato" class="comida-img" />
-            <p><strong>Gelato</strong>: Sorvete italiano, famoso por sua textura cremosa e variedade de sabores.</p>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <section class="cidades">
+        <div class="card">
+          <h2>Conheça algumas cidades</h2>
+          <div class="card-grid">
+            <a href="roma.html" class="card">
+              <img src="imagens/roma.jpeg" alt="Imagem de Roma" />
+              <h3>Roma</h3>
+              <p>A Cidade Eterna, repleta de história e monumentos icônicos como o Coliseu e o Vaticano.</p>
+            </a>
+            <a href="milao.html" class="card">
+              <img src="imagens/milao.jpeg" alt="Imagem de Milão" />
+              <h3>Milão</h3>
+              <p>Centro da moda e do design, Milão é moderna e vibrante, com a imponente Catedral de Milão.</p>
+            </a>
+          </div>
+        </div>
+      </section>
 
-    <footer>
-      <p>&copy; 2025 Itália. Todos os direitos reservados.</p>
-    </footer>
+      <section class="cultura">
+        <div class="card">
+          <h2>Cultura e Curiosidades sobre a Itália</h2>
+          <ul>
+            <li><strong>Patrimônio da Humanidade:</strong> A Itália possui mais de 50 locais reconhecidos pela UNESCO, sendo um dos países com maior número de patrimônios culturais do mundo.</li>
+            <li><strong>Culinária Famosa:</strong> Pratos como pizza, pasta e gelato são ícones da gastronomia italiana, apreciados no mundo inteiro.</li>
+            <li><strong>Língua:</strong> O italiano deriva do latim e é falado por cerca de 85 milhões de pessoas no mundo.</li>
+            <li><strong>Moda:</strong> Cidades como Milão são líderes mundiais da moda, com eventos como a Milan Fashion Week.</li>
+            <li><strong>Arte e História:</strong> A Itália foi o berço do Renascimento, com artistas como Leonardo da Vinci, Michelangelo e Rafael.</li>
+          </ul>
+        </div>
+      </section>
 
+      <footer id="contato">
+        <p>&copy; 2025 Projeto Itália. Todos os direitos reservados.</p>
+      </footer>
+    </main>
   </div>
 </body>
 </html>

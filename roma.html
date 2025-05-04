@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roma - Itália</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -9,35 +10,40 @@
 <body>
   <div class="container">
     <header>
+      <div class="card">
       <h1>Roma</h1>
       <p>A capital da Itália, rica em história, cultura e monumentos famosos como o Coliseu, o Vaticano e a Fontana di Trevi.</p>
+      </div>
     </header>
 
-    <div class="images">
-      <img src="imagens/roma.jpeg" alt="Coliseu" class="cidade-img" />
-      <img src="imagens/fontanaditrevi.jpeg" alt="Fontana di Trevi" class="cidade-img" />
+    <div class="card">
+      <div class="images">
+        <img src="imagens/roma.jpeg" alt="Coliseu" class="cidade-img" />
+        <img src="imagens/fontanaditrevi.jpeg" alt="Fontana di Trevi" class="cidade-img" />
+      </div>
     </div>
-
-    <div class="description">
-      <h3>Descrição</h3>
-      <p>Roma, conhecida como "A Cidade Eterna", é um dos maiores centros históricos do mundo, repleta de monumentos icônicos como o Coliseu e o Vaticano.</p>
+    
+    <div class="card">
+      <h2>Descrição</h2>
+      <p>Roma é uma cidade histórica, cheia de monumentos emblemáticos como o Coliseu e o Vaticano. Além de sua rica herança cultural, oferece uma vibrante vida urbana. Explore suas ruínas antigas e igrejas barrocas em cada esquina.</p>
     </div>
+    
 
     <div class="card">
       <h2>Pontos Turísticos de Roma</h2>
       <ul class="pontos">
-        <p>
+        <li>
           <img src="imagens/panteao.jpg" alt="Panteão" class="cidade-img" />
           <p><strong>Panteão:</strong> Um dos edifícios mais bem preservados da Roma Antiga, hoje funciona como igreja.</p>
-        </p>
-        <p>
+        </li>
+        <li>
           <img src="imagens/forum.jpg" alt="Fórum Romano" class="cidade-img" />
           <p><strong>Fórum Romano:</strong> Coração da Roma Antiga, onde se concentravam os principais edifícios públicos.</p>
-        </p>
-        <p>
+        </li>
+        <li>
           <img src="imagens/piazza.jpg" alt="Piazza Navona" class="cidade-img" />
           <p><strong>Piazza Navona:</strong> Uma das praças mais bonitas de Roma, com fontes e arquitetura barroca impressionante.</p>
-        </p>
+        </li>
       </ul>
     </div>
 
@@ -56,9 +62,8 @@
     </div>
 
     <div class="back-link">
-        <a href="index.html">← Voltar para a Página Principal</a>
+      <a href="index.html" class="back-btn">← Voltar para a Página Principal</a>
     </div>
   </div>
-
 </body>
 </html>

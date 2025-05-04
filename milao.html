@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Milão - Itália</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -9,18 +10,44 @@
 <body>
   <div class="container">
     <header>
-      <h1>Milão</h1>
-      <p>Capital mundial da moda e design, famosa também pela sua rica vida cultural e histórica.</p>
+      <div class="card">
+        <h1>Milão</h1>
+        <p>Capital mundial da moda e design, famosa também pela sua rica vida cultural e histórica.</p>
+      </div>
     </header>
 
-    <div class="images">
-      <img src="imagens/catedral.jpg" alt="Catedral de Milão" class="cidade-img" />
-      <img src="imagens/galleria.jpg" alt="Galeria Vittorio Emanuele II" class="cidade-img" />
+    <div class="card">
+      <div class="images">
+        <img src="imagens/catedral.jpg" alt="Catedral de Milão" class="cidade-img" />
+        <img src="imagens/galleria.jpg" alt="Galeria Vittorio Emanuele II" class="cidade-img" />
+      </div>
     </div>
 
-    <div class="description">
-      <h3>Descrição</h3>
+    <div class="card">
+      <h2>Descrição</h2>
       <p>Milão é uma cidade dinâmica e moderna, conhecida como a capital mundial da moda e do design. Além disso, possui uma forte cena artística e cultural. Não deixe de visitar a Catedral de Milão, a Galeria Vittorio Emanuele II, e ver a obra-prima de Da Vinci, "A Última Ceia".</p>
+    </div>
+
+    <div class="card">
+      <h2>Pontos Turísticos de Milão</h2>
+      <ul class="pontos">
+        <li>
+          <img src="imagens/catedral.jpg" alt="Catedral de Milão" class="cidade-img" />
+          <p><strong>Catedral de Milão:</strong> Uma das maiores catedrais góticas do mundo, localizada no coração da cidade.</p>
+        </li>
+        <li>
+          <img src="imagens/galleria.jpg" alt="Galeria Vittorio Emanuele II" class="cidade-img" />
+          <p><strong>Galeria Vittorio Emanuele II:</strong> Um elegante centro comercial coberto, com lojas de luxo e restaurantes famosos.</p>
+        </li>
+        <li>
+          <img src="imagens/ultimaceia.jpg" alt="A Última Ceia" class="cidade-img" />
+          <p><strong>A Última Ceia:</strong> Obra-prima de Leonardo da Vinci, localizada no convento de Santa Maria delle Grazie.</p>
+        </li>
+        <li>
+          <img src="imagens/castello-sforzesco.jpg" alt="Castelo Sforzesco" class="cidade-img" />
+          <p><strong>Castelo Sforzesco:</strong> Um castelo medieval com museus e galerias de arte, localizado em um grande parque no centro de Milão.</p>
+        </li>
+      </ul>
     </div>
 
     <div class="card">
@@ -38,9 +65,8 @@
     </div>
 
     <div class="back-link">
-      <a href="index.html">← Voltar para a Página Principal</a>
+      <a href="index.html" class="back-btn">← Voltar para a Página Principal</a>
     </div>
   </div>
-
 </body>
 </html>
